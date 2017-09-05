@@ -5,11 +5,13 @@
 	 
 	 <div class="temp">
 		 <a href="../demo/details.html">多页面跳转</a>
-		 <a href="../demo/home2.html">多页面跳转到home2</a>
+	<div><a href="../family/alert.html">alert页面</a></div>
+	 <div><a href="../family/calendar.html">calendar页面</a></div>
+	 <div><a href="../family/button.html">button页面</a></div>
 		 
 	 </div>
 		 
-		 <!-- <router-view></router-view> -->
+		 <Form></Form>
 	 
 	<!-- tabbar -->
 	<nav class="mui-bar mui-bar-tab ">
@@ -35,6 +37,13 @@
 </template>
 
 <script>
+	import Form from '../../../components/Form'
+
+	export default{
+		components:{
+			Form
+		}
+	}
  
 </script>
 
