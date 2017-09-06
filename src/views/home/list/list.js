@@ -9,15 +9,11 @@ Vue.use(VueRouter)
 
 import MintUi from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import 'mint-ui/lib/style.css'
 Vue.use(MintUi)
 
-import '../../../assets/mui/mui.min.css'
-
-// var router =new VueRouter({
-//   rouetrs:[
-//     {name:'form',path:'/form',component:Form}
-//   ]
-// })
+// import '../../../../static/mui/mui.min.css'
+ 
 
 new Vue({
   //  rouetr,
