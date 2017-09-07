@@ -1,4 +1,4 @@
-<template>
+ <template>
 <div>
       <form class="mui-input-group">
     <div class="mui-input-row">

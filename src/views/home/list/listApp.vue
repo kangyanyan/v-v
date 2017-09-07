@@ -1,5 +1,6 @@
-<template>
+ <template>
 <div>
+	<!-- 这里的Form是父组件向子组件传值的demo! -->
 	<!-- headbar -->
 	<mt-header fixed title="just a demo"></mt-header>
 	 
@@ -38,7 +39,6 @@
 
 <script>
 	import Form from '../../../components/Form'
-
 	export default{
 		components:{
 			Form
@@ -62,5 +62,4 @@
 	}
     
   
-
 </style>
