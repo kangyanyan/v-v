@@ -5,12 +5,13 @@
 	 
 	 <div class="temp">
 		 <a href="../demo/details.html">多页面跳转</a>
-		 <div><a href="../family/alert.html">alert页面</a></div>
-	 	<div><a href="../family/calendar.html">calendar页面</a></div>
-	 	<div><a href="../family/button.html">button页面</a></div>
+	<div><a href="../family/alert.html">alert页面</a></div>
+	 <div><a href="../family/calendar.html">calendar页面</a></div>
+	 <div><a href="../family/button.html">button页面</a></div>
+
 	 </div>
 		 
-		 <Form></Form>
+		 <Form :formData="listData"></Form>
 	 
 	<!-- tabbar 
 	<nav class="mui-bar mui-bar-tab ">
@@ -41,6 +42,14 @@
 	export default{
 		components:{
 			Form
+		},
+		data(){
+			return{
+				listData:{
+					name:"abc",
+					psw:"123456"
+				}
+			}
 		}
 	}
 </script>

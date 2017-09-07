@@ -1,15 +1,19 @@
 <template>
   <div>
-  	<router-link to='/list'>
-  	  路由切换list
+   
+  	根组件。。。。。。
+  	<router-link to='/list/12'>
+  	 路由切换 
   	</router-link>
-		<a href="./home2.html">跳到home2</a>
   	
+  	 
+ 
   </div>
 </template>
 
 <script>
- 
+
+  
 </script>
 
 <style>

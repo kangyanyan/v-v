@@ -6,15 +6,11 @@ import VueRouter from 'vue-router'
 import MintUi from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
-
-Vue.use(VueRouter)
+import 'mint-ui/lib/style.css'
 Vue.use(MintUi)
 
-// var router =new VueRouter({
-//   rouetrs:[
-//     {name:'form',path:'/form',component:Form}
-//   ]
-// })
+// import '../../../../static/mui/mui.min.css'
+
 
 new Vue({
   //  rouetr,

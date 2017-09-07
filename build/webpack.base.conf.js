@@ -51,6 +51,10 @@ var webpackConfig = {
         loader: 'babel-loader',
         include: [resolve('src'), resolve('test')]
       },
+    //   {
+    //     test: /\.css$/,
+    //     use: [ 'style-loader', 'css-loader' ]
+    // },
       {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
