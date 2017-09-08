@@ -7,8 +7,9 @@
   	 路由切换 
   	</router-link>
   	<div class="parent">
+      
     <h1>父组件</h1>
-    <Child v-on:cTop="showChild" ></Child>
+    <Child :cTop="showChild" ></Child>
   </div>
  
   </div>

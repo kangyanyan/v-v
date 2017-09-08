@@ -8,7 +8,9 @@
   export default{
     name: 'child',
     data(){
-      return {}
+      return {
+
+      }
     },
     methods: {
       cTop(){
